@@ -1,2 +1,4 @@
 idf_component_register(SRCS "robottino.c"
-                    INCLUDE_DIRS ".")
+                            "tb6612fng.c"
+                    INCLUDE_DIRS "."
+                    REQUIRES driver bluepad32)

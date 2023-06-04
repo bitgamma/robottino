@@ -19,6 +19,9 @@ limitations under the License.
 
 #include "uni_platform.h"
 
+float robottino_get_left();
+float robottino_get_right();
+
 struct uni_platform* uni_platform_robottino_create(void);
 
 #endif  // UNI_PLATFORM_ROBOTTINO_H
